@@ -1,0 +1,78 @@
+:root{
+    --colorFondo:#343434; 
+    --color1: #00d7f4;
+    --color2 :#ffdf01;
+    --color3: #fd7b03;
+    --color4: #ff0014;
+}
+
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+
+/* REQ 1: SE USA HOVER */
+
+body{
+    font-family: 'Rubik', sans-serif;
+    background-color: var(--colorFondo) ;
+    color: white;
+}
+/*
+header{
+    font-size: 8rem;
+    text-align: center;
+    background-color: var(--secundario);
+    border-radius: 1rem;
+    border-color: var(--negro);
+    border-width: 1rem;
+}*/
+
+.layout{
+    display: inline-block;
+	vertical-align: top;
+	width: 90%;
+	height: auto;
+	margin: 20px 5%;
+	box-sizing: border-box;
+	
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+.menu, .bloque{
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    height: auto;
+}
+
+.menu{
+    padding: 3rem;
+    font-size: 2rem;
+}
+
+.color1{
+    background-color: var(--color1);
+}
+.color2{
+    background-color: var(--color2);
+}
+.color3{
+    background-color: var(--color3);
+}
+.color4{
+    background-color: var(--color4);
+}
+
+.color1, .color2, .color3, .color4{
+    font-size: 5rem;
+}
